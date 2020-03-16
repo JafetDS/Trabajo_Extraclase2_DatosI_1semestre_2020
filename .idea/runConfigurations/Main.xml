@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Main" type="Application" factoryName="Application" singleton="false">
+    <option name="MAIN_CLASS_NAME" value="sample.Main" />
+    <module name="untitled" />
+    <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\User\Documents\NetBeansProjects\javafx-sdk-13.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="sample.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <RunnerSettings RunnerId="Run" />
+    <ConfigurationWrapper RunnerId="Run" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
