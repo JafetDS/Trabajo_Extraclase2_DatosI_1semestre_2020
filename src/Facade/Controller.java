@@ -9,24 +9,34 @@ import java.util.ResourceBundle;
 
 import java.net.URL;
 
+/**
+ * @author Jafet
+ */
 public class Controller implements Initializable,Runnable{
     private Generator generator;
     @FXML
     private HBox hbox;
 
+    /**
+     * @param e: Event of the red Button creator
+     */
     @FXML
     public void CreateRedButton(ActionEvent e){
         generator.addRedButton(hbox);
     }
+    /**
+     * @param e: Event of the blue Button creator
+     */
     @FXML
     public void CreateBlueButton(ActionEvent e){
         generator.addBlueButton(hbox);
-
     }
+    /**
+     * @param e: Event of the blue Button creator
+     */
     @FXML
     public void CreateGreenButton(ActionEvent e){
         generator.addGreenButton(hbox);
-
     }
 
     @Override
